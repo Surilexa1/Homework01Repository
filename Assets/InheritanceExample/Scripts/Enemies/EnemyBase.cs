@@ -7,7 +7,7 @@ public abstract class EnemyBase : MonoBehaviour
 {
     [SerializeField] private int _health = 3;
     [Header("FX")]
-    [SerializeField] private AudioClip _deathSound;
+    [SerializeField] protected AudioClip _deathSound;
     [SerializeField] private AudioClip _hitSound;
     [SerializeField] protected float MoveSpeed = .05f;
 

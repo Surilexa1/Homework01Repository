@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 007b373334159d3499b7290bb5101669, type: 2}
+  - {fileID: 2100000, guid: 13bd09078e55cb84cafccf2067450a07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -144,7 +144,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 007b373334159d3499b7290bb5101669, type: 2}
+  - {fileID: 2100000, guid: 13bd09078e55cb84cafccf2067450a07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -261,7 +261,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 007b373334159d3499b7290bb5101669, type: 2}
+  - {fileID: 2100000, guid: 13bd09078e55cb84cafccf2067450a07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -294,9 +294,9 @@ GameObject:
   - component: {fileID: 4549945117582617888}
   - component: {fileID: 4549945117582617917}
   - component: {fileID: 4549945117582617889}
-  - component: {fileID: 1007923514364999763}
+  - component: {fileID: 6605116281248720219}
   m_Layer: 0
-  m_Name: Crawler
+  m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -347,7 +347,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1007923514364999763
+--- !u!114 &6605116281248720219
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -356,10 +356,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4549945117582617916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 642dcefa73db12d429bad45f1b0a4cfc, type: 3}
+  m_Script: {fileID: 11500000, guid: 82a4e4a4adb9a9049a0f02bcd175dc68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 3
+  _health: 6
   _deathSound: {fileID: 8300000, guid: 3e3e3e5716c2533409755571490cc2c4, type: 3}
   _hitSound: {fileID: 8300000, guid: eeb3bcaf9a1e08b4ca2540b8b4157f6b, type: 3}
   MoveSpeed: 0.05
